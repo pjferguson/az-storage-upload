@@ -76,7 +76,7 @@ function checking_errors {
 # Generate a random password
 function generate_password {
     password=$(openssl rand -base64 32)
-    echo $password
+    echo $password > blob-storage-password.txt
 }
 
 # Encrypt the file
@@ -84,7 +84,7 @@ function encrypt_file {
     for file in "${files[@]}"; do 
         password=$(generate_password)
         openssl enc -aes-256-cbc -salt -in $file -out $file.enc -pass pass:$password
-        echo "The file: "${file}" has been encrypted successfully with password: $password"
+        echo "The file: "${file}" has been encrypted successfully!"
     done
 }
 
