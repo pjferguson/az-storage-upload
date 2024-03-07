@@ -21,7 +21,7 @@ chmod 755 blob-storage.sh
 ``` 
 mv /path/to/blob-storage.sh /usr/local/bin/
 ```
- - Replace ''path/to/bin/blob-storage.sh'' with the full path to the file on your local system. 
+ - Replace 'path/to/bin/blob-storage.sh' with the full path to the file on your local system. 
 ## Usage 
 ```
 ./blob-storage.sh <filename1> <filename2>
@@ -29,10 +29,12 @@ mv /path/to/blob-storage.sh /usr/local/bin/
 
 ## Troubleshooting 
 1. Verify Azure CLI Installation
- - Verify that AZ CLI is installed, also verify that you have the proper permissions
+ - Verify that AZ CLI is installed, also verify that you have the proper permissions for execution. 
 
 2. Check Azure Resources
- - For proper execution blob storage needs to be one of your rersources. If you have the storage resource also verify that you have the permissions to use the current containers. 
+ - For proper execution blob storage needs to be one of your rersources. If you have the storage resource also verify that you have the permissions to use the current containers. For more information about Blob storage: https://rb.gy/k98dvf
+
+
 
 3. Update the script
- - Check for updates in the repo. Updates will be made soon. 
+ - Check for updates on the repo, updates will be made periodically.
