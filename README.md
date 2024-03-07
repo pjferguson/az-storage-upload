@@ -1,4 +1,4 @@
-# AZ-Blob-CLI
+# AZ-Blob-Tool
 This Bash script provides a streamlined process for uploading files to Azure Blob Storage. It iterates over an array of files, uploading each one to a specified storage account and container. Before uploading, each file is encrypted if neccessary, enhancing the security of your data. After successful upload, the encrypted local copy of the file is removed, ensuring your local environment remains clean. The script includes error checking after each upload to provide immediate feedback on the success of the operation. 
 
 ## Prerequisites 
@@ -21,9 +21,9 @@ chmod 755 blob-storage.sh
 ``` 
 mv /path/to/blob-storage.sh /usr/local/bin/
 ```
- - Replace 'path/to/bin/blob-storage.sh' with the full path path to the file on your local system. 
+ - Replace ''path/to/bin/blob-storage.sh'' with the full path to the file on your local system. 
 ## Usage 
-1. ```
+```
 ./blob-storage.sh <filename1> <filename2>
 ```
 
