@@ -10,13 +10,16 @@ This Bash script provides a streamlined process for uploading files to Azure Blo
 
 ## Installation
 1. Install this repo locally:
-``` git clone https://github.com/Pferguson7/azure-storage-upload-cli
+``` 
+git clone https://github.com/Pferguson7/azure-storage-upload-cli
 ```
 2. Change permissions: 
-```chmod 755 blob-storage.sh
+```
+chmod 755 blob-storage.sh
 ```
 3. To make the script executable from any directory: 
-``` mv /path/to/blob-storage.sh /usr/local/bin/
+``` 
+mv /path/to/blob-storage.sh /usr/local/bin/
 ```
 
 ## Usage 
