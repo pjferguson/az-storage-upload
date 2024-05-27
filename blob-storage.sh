@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-git push origin main
-=======
+
 #!/bin/bash
 files=("$@")
 
