@@ -122,5 +122,4 @@ if [ "$use_encryption" == "yes" ]; then
 else
     upload_file 
 fi
->>>>>>> 043d797ba27fac7089db8f8a4e18582dbc4a0aeb
 
